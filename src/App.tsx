@@ -13,35 +13,34 @@ function App() {
         <div className="pt-[112px] flex flex-col items-center gap-[24px]">
           <div className="flex flex-col items-center gap-[12px]">
             <div className="w-fit text-[14px] font-[400] px-[8px] py-[5px] bg-white bg-opacity-[12%] rounded-[999px]">
-              Coming soon
+              Coming Soon
             </div>
             <div className="flex flex-col items-center gap-[12px]">
-              <p className="text-[56px] font-[700]">Spiral Vaults</p>
-              <p className="text-[16px] font-[400] text-[#B3B3B3]">
-                Our system helps you leverage safely and instantly, so you earn
-                more.
+              <p className="text-[56px] font-[700]">Spiral Pools</p>
+              <p className="text-[16px] font-[400] text-[#B3B3B3] text-center">
+                Access Private Morpho pools offering stable, risk-mitigated yields  that fuel leveraged strategies on Spiral Stake.
               </p>
             </div>
           </div>
           <div className="flex items-center gap-[24px] ">
             <div className="flex items-center gap-[4px] rounded-[32px] px-[16px] py-[8px] bg-white bg-opacity-[6%]">
-              <img src={instant} alt="" className="w-[14px]"/>
-              <p className="text-[16px] font-[400]">Instant</p>
+              <img src={instant} alt="" className="w-[14px]" />
+              <p className="text-[16px] font-[400]">Self-Custodial</p>
             </div>
             <div className="flex items-center gap-[4px] rounded-[32px] px-[16px] py-[8px] bg-white bg-opacity-[6%]">
-              <img src={rocket} alt="" className="w-[14px]"/>
-              <p className="text-[16px] font-[400]">Fast</p>
+              <img src={rocket} alt="" className="w-[14px]" />
+              <p className="text-[16px] font-[400]">Predictable</p>
             </div>
             <div className="flex items-center gap-[4px] rounded-[32px] px-[16px] py-[8px] bg-white bg-opacity-[6%]">
-              <img src={highYeild} alt="" className="w-[14px]"/>
-              <p className="text-[16px] font-[400]">High yield</p>
+              <img src={highYeild} alt="" className="w-[14px]" />
+              <p className="text-[16px] font-[400]">Low-Risk</p>
             </div>
           </div>
         </div>
         <div className="w-full flex items-center justify-center">
-          <img src={vault} alt="" className="w-[648px] h-[648px]" />
+          <img src={vault} alt="" className="lg:w-[648px] lg:h-[648px]" />
         </div>
-        <Links/>
+        <Links />
       </main>
     </div>
   );
