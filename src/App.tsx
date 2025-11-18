@@ -18,7 +18,7 @@ function App() {
             <div className="flex flex-col items-center gap-[12px]">
               <p className="text-[56px] font-[700]">Spiral Pools</p>
               <p className="text-[16px] font-[400] text-[#B3B3B3] text-center">
-                Access Private Morpho pools offering stable, risk-mitigated yields  that fuel leveraged strategies on Spiral Stake.
+                Access Private Morpho pools offering stable, risk-mitigated yields that fuel leveraged strategies on Spiral Stake.
               </p>
             </div>
           </div>

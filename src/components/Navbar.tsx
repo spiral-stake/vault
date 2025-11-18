@@ -1,4 +1,5 @@
 import logo from "../assets/logo.svg";
+
 const Navbar = () => {
   return (
     <>
@@ -7,14 +8,14 @@ const Navbar = () => {
           <div className="lg:w-[800px] flex items-center justify-start lg:justify-between">
             {/* logo part */}
             <div className="flex justify-start items-center gap-3">
-              <div>
-                <div className="flex items-center justify-center gap-[8px]">
-                  <img src={logo} alt="" className="h-[30px] w-[30px]" />
-                  <span className="hidden md:inline-flex text-[20px] font-[700] text-white">
-                    Spiral Stake
-                  </span>
-                </div>
+
+              <div className="cursor-pointer flex items-center justify-center gap-1">
+                <img src={logo} alt="" className="h-9 w-9" />
+                <span className="hidden md:inline-flex text-xl font-medium">
+                  Spiral Stake
+                </span>
               </div>
+
             </div>
           </div>
         </div>
