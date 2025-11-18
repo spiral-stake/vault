@@ -7,7 +7,7 @@ import Links from "./components/low-level/Links";
 
 function App() {
   return (
-    <div className="text-white relative overflow-hidden w-full bg-[#051030] [background-image:radial-gradient(circle_700px_at_-5%_10%,#0344ab_15%,#051030_70%,transparent_100%),radial-gradient(700px_circle_at_105%_90%,#0344ab_20%,#051030_70%,transparent_70%)]">
+    <div className="text-white font-[Outfit] relative overflow-hidden w-full bg-[#051030] [background-image:radial-gradient(circle_700px_at_-5%_10%,#0344ab_15%,#051030_70%,transparent_100%),radial-gradient(700px_circle_at_105%_90%,#0344ab_20%,#051030_70%,transparent_70%)]">
       <Navbar />
       <main className="">
         <div className="pt-[112px] flex flex-col items-center gap-[24px]">
